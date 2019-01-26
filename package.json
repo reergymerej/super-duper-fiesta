@@ -1,0 +1,29 @@
+{
+  "name": "redux-saga-tests",
+  "description": "a nice place to explore Redux Saga",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Jeremy Greer <jex.grizzle@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "8",
+    "babel-jest": "^24.0.0",
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {
+    "redux-saga": "^1.0.0"
+  },
+  "repository": "git@github.com:reergymerej/super-duper-fiesta.git"
+}
